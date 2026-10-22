@@ -1,1 +1,1 @@
-# image_data_mining
+# paper_charts_data_mining
