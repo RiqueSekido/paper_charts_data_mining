@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-charts"
+version = "0.1.0"
+description = "Find and crop chart figures from research paper PDFs"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["PyMuPDF>=1.24,<2"]
+
+[project.scripts]
+paper-charts = "paper_charts.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
